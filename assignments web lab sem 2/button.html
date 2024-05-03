@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #button{
+            background-color: rgb(223, 130, 130);
+            height: 105px;
+            width: 210px;
+            border: 20px solid rgb(223, 45, 45);
+
+        }
+    </style>
+</head>
+<body>
+    <input id="button" type="button"   value="mouse over me" onclick="change()">
+
+
+    <script>
+        function change()
+        {
+            document.getElementById("button").value="thank you";
+        }
+    </script>
+</body>
+</html>

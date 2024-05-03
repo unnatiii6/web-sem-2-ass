@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+    <style>
+        #main{
+            display:grid;
+            grid-template-rows: 100px 100px 100px;
+            grid-template-columns:100px 100px 100px 100px 100px  ;
+        }
+        #red{
+            background-color: red;
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start:1 ;
+            grid-row-end: 1;
+            border: 2px solid white;
+        
+        }
+        #blue{
+            background-color: rgb(50, 14, 182);
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start:2 ;
+            grid-row-end: 3;
+            border: 2px solid white;
+        }
+        #orange{
+            background-color: rgb(226, 151, 12);
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 3;
+            grid-row-end: 4; 
+            border: 2px solid white;
+        }
+        #lightgreen{
+            background-color: rgb(24, 245, 24);
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start:2 ;
+            grid-row-end: 4;
+            border: 2px solid white;
+
+        }
+        #green{
+            background-color: rgb(30, 182, 81);
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 3;
+            border: 2px solid white;
+        }
+        #purple{
+            background-color: rgb(201, 16, 155);
+            grid-column-start: 4;
+            grid-column-end: 6;
+            grid-row-start: 1;
+            grid-row-end: 3;
+            border: 2px solid white;
+        }
+        #pink{
+            background-color: rgb(226, 65, 140);
+            grid-column-start: 3;
+            grid-column-end: 6;
+            grid-row-start: 3;
+            grid-row-end: 4; 
+            border: 2px solid white;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="red"></div>
+        <div id="blue"></div>
+        <div id="orange"></div>
+        <div id="lightgreen"></div>
+        <div id="green"></div>
+        <div id="purple"></div>
+        <div id="pink"></div>
+    </div>
+</body>
+</html>
